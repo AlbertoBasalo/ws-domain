@@ -1,12 +1,13 @@
 {
-  "name": "@lab/domain",
+  "name": "ws-domain",
   "private": true,
   "version": "0.0.1",
   "type": "module",
+  "main": "domain.js",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "prebuild": "tsc",
+    "build": "vite build",
+    "postbuild": "cd ./dist && npm link"
   },
   "devDependencies": {
     "typescript": "^5.2.2",
