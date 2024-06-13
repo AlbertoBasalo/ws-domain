@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](///compare/v0.0.5...v0.0.6) (2024-06-13)
+
+
+### Bug Fixes
+
+* release workflow e134b81
+
 ### [0.0.5](///compare/v0.0.4...v0.0.5) (2024-06-13)
 
 ### [0.0.4](///compare/v0.0.3...v0.0.4) (2024-06-13)
