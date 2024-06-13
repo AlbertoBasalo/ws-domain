@@ -7,7 +7,9 @@
   "scripts": {
     "prebuild": "tsc",
     "build": "vite build",
-    "postbuild": "cd ./dist && npm link"
+    "prepublish": "cd ./public && npm run release && npm run build",
+    "publish": "cd ./dist && npm link",
+    "postpublish": "git push --follow-tags origin master"
   },
   "devDependencies": {
     "standard-version": "^9.5.0",
