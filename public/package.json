@@ -3,5 +3,8 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "main": "domain.js"
+  "main": "domain.js",
+  "scripts": {
+    "release": "standard-version"
+  }
 }

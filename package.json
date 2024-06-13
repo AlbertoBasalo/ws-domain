@@ -10,6 +10,7 @@
     "postbuild": "cd ./dist && npm link"
   },
   "devDependencies": {
+    "standard-version": "^9.5.0",
     "typescript": "^5.2.2",
     "vite": "^5.2.0"
   }
