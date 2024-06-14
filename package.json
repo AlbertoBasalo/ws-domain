@@ -8,7 +8,7 @@
     "prebuild": "tsc",
     "build": "vite build",
     "prepublish": "cd ./public && npm run release ",
-    "publish": "npm run build && cd ./dist && npm link",
+    "publish": "npm run build && cd ./dist && npm publish --registry http://localhost:4873/",
     "postpublish": "git push --follow-tags origin master"
   },
   "devDependencies": {
